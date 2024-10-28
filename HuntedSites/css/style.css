@@ -179,7 +179,7 @@ p {
 	padding: 100px;
 	height:456px;
   }
-  
+
 @media screen and (max-width:600px) {
 	p {
 		font-size: 10px;
@@ -188,11 +188,11 @@ p {
 		.imgbox{
 			display: none;
 		}
-	
+
 		.headcolor{
 			margin:0px;
 		}
-	  .body-moblie{
+	  .body-mobile{
 		background-color:#61DE2A;
 	  }
 	  ul{
