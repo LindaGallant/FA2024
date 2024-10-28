@@ -90,29 +90,22 @@ p {
   }
 
 
-  .body-moblie{
-	background-color:#61DE2A;
-  }
-
   .contain1{
 	padding: 20px;
 	border: 20px;
 	margin:20px;
-	width:1530px;
   }
 
   .contain2{
 	padding: 20px;
 	border: 20px;
 	margin:20px;
-	width:1530px;
   }
 
   .contain3{
 	padding: 20px;
 	border: 20px;
 	margin:20px;
-	width:1530p;
   }
 
   .footer{
@@ -139,7 +132,7 @@ p {
 	margin:auto;
 	height: 400px;
 	width:365px;
-
+	vertical-align:left;
   }
 
   .imgcontain2{
@@ -151,6 +144,7 @@ p {
 	display: inline-block;
 	background-color: #780606;
 	height: 400px;
+	vertical-align:left;
 	
   }
 
@@ -162,6 +156,7 @@ p {
 	display: inline-block;
 	background-color: #780606;
 	height: 400px;
+	vertical-align:left;
   }
 
   .textcolor{
@@ -169,15 +164,12 @@ p {
   }
 
   .imgbox{
-	width:1530;
+	width:100%;
+	display:block;
 	list-style-type: style center;
 	height: 450px;
-	margin-left: 100px;
-	margin-right: 260px;
-	border-style: none;
-	border: 100px;
-	padding: 100px;
 	height:456px;
+	float:left;
   }
 
 @media screen and (max-width:600px) {
@@ -197,6 +189,9 @@ p {
 	  }
 	  ul{
 		font-size:20px;
+	  }
+	  .footer{
+		margin:0px;
 	  }
 }
 
