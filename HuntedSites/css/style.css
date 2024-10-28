@@ -53,7 +53,6 @@ p {
 
   .headcolor{
 	background-color: #780606;
-	width: 1530px;
 	height: 80px;
 	position: center;
 	text-align: center;
@@ -90,9 +89,6 @@ p {
 	transition: background-color 1.5s, color 1.75s;
   }
 
-  .a:hover-mobile{
-	color:#780606;
-  }
 
   .body-moblie{
 	background-color:#61DE2A;
@@ -189,15 +185,18 @@ p {
 		font-size: 10px;
 	}
 
-	#history {
-		display: none;
-	}
-	.a:hover-mobile{
-		color:#780606;
-	  }
+		.imgbox{
+			display: none;
+		}
 	
+		.headcolor{
+			margin:0px;
+		}
 	  .body-moblie{
 		background-color:#61DE2A;
+	  }
+	  ul{
+		font-size:20px;
 	  }
 }
 
