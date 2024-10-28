@@ -183,7 +183,7 @@ p {
 	padding: 100px;
 	height:456px;
   }
-  
+
 @media screen and (max-width:600px) {
 	p {
 		font-size: 10px;
@@ -196,7 +196,7 @@ p {
 		color:#780606;
 	  }
 	
-	  .body-moblie{
+	  .body-mobile{
 		background-color:#61DE2A;
 	  }
 }
