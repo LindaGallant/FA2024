@@ -132,7 +132,7 @@ p {
 	margin:auto;
 	height: 400px;
 	width:365px;
-	vertical-align:left;
+	vertical-align:top;
   }
 
   .imgcontain2{
@@ -144,7 +144,7 @@ p {
 	display: inline-block;
 	background-color: #780606;
 	height: 400px;
-	vertical-align:left;
+	vertical-align:top;
 	
   }
 
@@ -156,7 +156,7 @@ p {
 	display: inline-block;
 	background-color: #780606;
 	height: 400px;
-	vertical-align:left;
+	vertical-align:top;
   }
 
   .textcolor{
