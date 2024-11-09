@@ -87,6 +87,16 @@ p {
 	background-color:none;
 	color:#61DE2A;
 	transition: background-color 1.5s, color 1.75s;
+	animation-name:Textlarger;
+	animation-duration: 3s;
+  }
+
+  @keyframes Textlarger{
+	20% {font-size: 20px;}
+	40% {font-size: 40px;}
+	60%{font-size: 60px;}
+	80%{font-size: 80px;}
+	100%{font-size: 100px;}
   }
 
 
@@ -121,7 +131,11 @@ p {
 	color:#61DE2A;
 	font-size: 16px;
   }
-
+  img{
+	/*filter: grayscale(85%);*/
+	filter:hue-rotate(200deg);
+	filter:blur(90%);
+  }
  .imgcontain{
 	border-top: 10px;
 	border-left:10px;
